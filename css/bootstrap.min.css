@@ -10,3 +10,8 @@
     max-width: 100% !important;
     margin: auto;
       }
+
+   img.small {
+    max-width: 50% !important;
+    margin: auto;
+      }

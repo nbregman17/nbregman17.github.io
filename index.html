@@ -9,10 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+     <title>Gem Project</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -29,6 +32,10 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -40,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Gem</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,13 +58,25 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#PART1">Structure</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#PART2">Materials</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#PART3">Soldering</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#PART4">First Results</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#PART5">Expansion</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#PART6">External Wiring</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#PART7">Final Result</a>
                     </li>
                 </ul>
             </div>
@@ -71,42 +90,503 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    <h1>The Gem</h1>
+                    <img class="small" src="images/mona.jpg">
+                    <br>
+                    <br>
+                    <p> My idea for the Gem began as a large piece of interactive public art.  I've created a 1/6 scale model of the piece I hope to create.  The technology is intentionally simplistic, and meant to force viewers, who are intimately familiar with their phones and laptops, to reevaluate their relationship with technology.  In order to create the prototype, I had to learn as I went and I gained many new skills and learned a lot in the process of making this</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+
+    <section id="PART1" class="Structure-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
+                    <h1>Structure</h1>
+
+                        <p>After modeling the exterior structure in SketchUp, I built a 1/6 scale model of my design out of acrylic.
+                            I made it frosted by sanding it and used hot glue as adhesive.</p>
+                        <br>
+                        <br>
+                        <!--Carousel 1 START-->
+                        <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="3"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="4"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="5"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="6"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid" src="images/PART1/slide0.jpg" alt="First Slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h3>3D Digital Model</h3>
+                                    <p>I used sketchup to model the Gem design.  There is a 5'6" person for scale.</p>
+                                  </div>
+
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART1/slide1.jpg" alt="Second Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART1/slide2.jpg" alt="Third Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART1/slide3.jpg" alt="Fourth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART1/slide4.jpg" alt="Fifth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART1/slide5.jpg" alt="Sixth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART1/slide6.jpg" alt="Seventh Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel-1" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel-1" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+
+                        </div>
+                        <!--Carousel 1 END-->
+
+                        <br>
+                        <br>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Pe8fcTTANs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
+    <section id="PART2" class="Materials-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                    <h1>Materials Section</h1>
+                    <p>The LEDs are strips of 24-bit color fully adressible LEDs and come in spools of 1 meter each with 60 LEDs per meter.  I ordered 5 meters, which came out perfectly.  I ended up using 298 LEDs, then had to use one of my two leftovers to repair a faulty LED.<p>
+                        <!--Carousel 2 START-->
+                        <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="3"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="4"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid" src="images/PART2/slide1.jpg" alt="First Slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h3>The LED strips I used.</h3>
+                                  </div>
+
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART2/slide2.jpg" alt="Second Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h3>Foam board base for the grid</h3>
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART2/slide3.jpg" alt="Third Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                    <h3>Soldering and wire cutting materials</h3>
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART2/slide4.jpg" alt="Fourth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART2/slide5.jpg" alt="Fifth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel-2" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel-2" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                        </div>
+                        <!--Carousel 2 END-->
+
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="PART3" class="Soldering-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    <h1>Soldering</h1>
+                    <p>This was my first experience with soldering, but I got a lot of practice.  I started with a rectangular pattern, with 17 LEDs per column and 14 columns.</p>
+                        <!--Carousel 3 START-->
+                        <div id="myCarousel-3" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-3" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="3"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="4"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="5"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="6"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="7"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="8"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="9"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="10"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid" src="images/PART3/slide1.jpg" alt="First Slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <p>The LED strips have adhesive on the back.</p>
+                                  </div>
+
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide2.jpg" alt="Second Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <p>The strips lit up within the structure.</p>
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide3.jpg" alt="Third Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                    <p>I'm using the ponlulu led library sample rainbow code</p>
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide4.jpg" alt="Fourth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                    <p>Soldering the two strips together for the first time.  Power (red) to power, data (green) to data, ground (white) to ground)</p>
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide5.jpg" alt="Fifth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide6.jpg" alt="Sixth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide7.jpg" alt="Seventh Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide8.jpg" alt="Eighth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide9.jpg" alt="Ninth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide10.jpg" alt="Tenth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART3/slide11.jpg" alt="Eleventh Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel-3" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel-3" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                        </div>
+                        <!--Carousel 3 END-->
+
+                        <br>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UhckMI0iyB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="PART4" class="First-Results-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>First Results</h1>
+                    <p>At this point, I had finished the whole rectangular part of the grid.  It looked great!  At this point, I tested out my code to display an image on the board by trying to make a smiley face.  The non-dark sections are supposed to be white.  The issue, I later learned, was that the only power source at this point was from the arduino, and the voltage was dropping across the more than 4 meters of lights.  When the LEDs don't get enough power, they don't display color correctly.<p>
+                    <!--Carousel 4 START-->
+                    <div id="myCarousel-4" class="carousel slide" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel-4" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel-4" data-slide-to="1"></li>
+                        <li data-target="#myCarousel-4" data-slide-to="2"></li>
+                        <li data-target="#myCarousel-4" data-slide-to="3"></li>
+                    </ol>   
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="d-block img-fluid" src="images/PART4/slide1.jpg" alt="First Slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h3>Completed sodering across the top</h3>
+                              </div>
+
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid" src="images/PART4/slide2.jpg" alt="Second Slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                <h3>The fully lit up rainbow grid.</h3>
+                              </div>
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid" src="images/PART4/slide3.jpg" alt="Third Slide">
+                               <div class="carousel-caption d-none d-md-block">
+                                <p>Testing out my code to make a picture. The voltage drop issue is visible here. </p>
+                              </div>
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid" src="images/PART4/slide4.jpg" alt="Fourth Slide">
+                               <div class="carousel-caption d-none d-md-block">
+                                <h3>The entire board lit up within the structure.</h3>
+                              </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-4" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-4" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                    </div>
+                    <!--Carousel 4 END-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="PART5" class="Expansion-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Expansion</h1>
+                    <p>I loved the result, but decided that I really wanted to get the full effect by having LEDs in the domed section.  I had to remove half of my previous solders and expand upwards, which, while a setback, was well worth the result.  This also involved reworking my code.  Mapping from an image to a rectangular grid was much simpler than mapping from a rectangular image to an irregular shape.  The best way I could deal with the issue was to create a 2D array that manually mapped from the rectangular image to the corresponding spot on the grid.</p>
+                        <!--Carousel 5 START-->
+                        <div id="myCarousel-5" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-5" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="3"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="4"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="5"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="6"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid" src="images/PART5/slide1.jpg" alt="First Slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                  </div>
+
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART5/slide2.jpg" alt="Second Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART5/slide3.jpg" alt="Third Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART5/slide4.jpg" alt="Fourth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART5/slide5.jpg" alt="Fifth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART5/slide6.jpg" alt="Sixth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART5/slide7.jpg" alt="Seventh Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel-5" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel-5" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                        </div>
+                        <!--Carousel 5 END-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="PART6" class="External-Wiring-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>External Wiring</h1>
+                    <p>I added supplemental power at 4 points along the grid from a 5V 4A wall power supply.  I gave the arduino its own seperate power supply from a 9V battery.  The board is grounded to both the arduino and the wall, and the arduino supplies the data.  I added supports so the board could sit within the exterior structure snugly and a small shelf for the arduino and the battery.</p>
+                    <!--Carousel 6 START-->
+                    <div id="myCarousel-6" class="carousel slide" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel-6" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel-6" data-slide-to="1"></li>
+                        <li data-target="#myCarousel-6" data-slide-to="2"></li>
+                    </ol>   
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="d-block img-fluid" src="images/PART6/slide1.jpg" alt="First Slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <p>The red supplemental power wires run from the bottom of the board to the back of the board to the wall.</p>
+                              </div>
+
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid" src="images/PART6/slide2.jpg" alt="Second Slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p>The arduino and its battery sit on two small shelves.</p>
+                              </div>
+                        </div>
+                        <div class="item">
+                            <img class="d-block img-fluid" src="images/PART6/slide3.jpg" alt="Third Slide">
+                               <div class="carousel-caption d-none d-md-block">
+                                <p>The front of the board has small spacers also.</p>
+                              </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left" href="#myCarousel-6" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel-6" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                    </div>
+                    <!--Carousel 6 END-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="PART7" class="Final-Results-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Final Results</h1>
+                    <p>I'm incredibly happy with how the project turned out, and am still playing around with all that I can do with my Gem.  Getting it to display the Mona Lisa in a way that other people could recognise the picture was a fun moment and I have a lot of ideas for the future of the Gem.</p>
+                        <!--Carousel 7 START-->
+                        <div id="myCarousel-7" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-7" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="3"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="4"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid" src="images/PART7/slide1.jpg" alt="First Slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                  </div>
+
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART7/slide2.jpg" alt="Second Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART7/slide3.jpg" alt="Third Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART7/slide4.jpg" alt="Fourth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                    <p>It's super bright!</p>
+                                  </div>
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid" src="images/PART7/slide5.jpg" alt="Fourth Slide">
+                                   <div class="carousel-caption d-none d-md-block">
+                                  </div>
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel-7" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel-7" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                        </div>
+                        <!--Carousel 7 END-->
                 </div>
             </div>
         </div>
